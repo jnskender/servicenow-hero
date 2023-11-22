@@ -1,8 +1,8 @@
 export const config = {
-	title: 'Pied Piper (un)official blog',
-	author: 'Ahmad Kiarostami',
-	headerTitle: 'Pied Piper',
-	description: 'Pied Piper (un)official blog, created with Sveltekit and Tailwind.css',
+	title: 'ServiceNow Hero',
+	author: 'John Skender',
+	headerTitle: 'ServiceNow Hero',
+	description: 'Become the ServiceNow Hero of your organization',
 	language: 'en-us',
 	theme: 'dark', // system, dark or light
 	domain: 'http://www.piedpiper.com/',
@@ -24,7 +24,7 @@ export const config = {
 	// check .env.example for settings needed values for each service
 	newsletter: 'mailchimp',
 
-	multiuser: true
+	multiuser: false
 };
 
 export const user = {

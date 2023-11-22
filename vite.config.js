@@ -28,7 +28,12 @@ const config = {
 		}
 	},
 	plugins: [sveltekit(), svg(svgPluginOptions), rawFonts(['.ttf'])],
-	legacy: { buildSsrCjsExternalHeuristics: true }
+	legacy: { buildSsrCjsExternalHeuristics: true },
+  build: {
+    rollupOptions: {
+      external: ["@resvg/resvg-js"]
+    }
+  }
 };
 
 function rawFonts(ext) {

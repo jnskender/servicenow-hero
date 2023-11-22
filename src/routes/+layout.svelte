@@ -6,6 +6,7 @@
 	import Footer from '$lib/components/layout/Footer.svelte';
 	import Analytics from '$lib/components/analytics/index.svelte';
 	import '../app.css';
+	import '../code.css';
 
 	export let data = {};
 </script>

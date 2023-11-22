@@ -40,5 +40,9 @@
 		"unist-util-visit": "^4.1.1",
 		"vite": "^4.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@resvg/resvg-js": "^2.6.0",
+		"remark-code-title": "^0.2.5"
+	}
 }
